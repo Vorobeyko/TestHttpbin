@@ -134,7 +134,7 @@ class TestRedirect:
     def test_absolute_redirect(self):
         """
         Шаги:
-            1. Отправляем запрос http://httpbin.org/absolute/2?relative=true
+            1. Отправляем запрос http://httpbin.org/redirect/2?absolute=true
 
         Ожидаемый результат: Location будет равен http://httpbin.org/absolute-redirect/1
         """
@@ -154,7 +154,7 @@ class TestRedirect:
     def test_absolute_redirect_n_equal_1(self):
         """
         Шаги:
-            1. Отправляем запрос http://httpbin.org/absolute/2?relative=true
+            1. Отправляем запрос http://httpbin.org/redirect/2?absolute=true
 
         Ожидаемый результат: Location будет равен http://httpbin.org/get
         """

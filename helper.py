@@ -3,7 +3,7 @@ import logging
 
 def log_response(response):
     """
-
+    format the response and log it
     :param response:
     """
     headers = response.headers

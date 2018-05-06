@@ -6,7 +6,7 @@ from helper import log_response
 
 @allure.feature("Тестирование endpoint`а /headers")
 class TestHeaders:
-    @allure.story("Тестирование endpoint`а /headers")
+    @allure.story("Заголовок с  content-type=custom_content_type")
     def test_headers_content_type_equal_custom_content_type(self):
         """
         Шаги тест кейса:
