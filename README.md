@@ -31,7 +31,7 @@ test_last_redirect_must_be_get | 1. Отправляем запрос http://htt
 test_by_default_redirect_is_relative | 1. Отправляем запрос http://httpbin.org/redirect/2 | Location будет равен /relative-redirect/1
 test_relative_redirect | 1. Отправляем запрос http://httpbin.org/redirect/2?relative=true | Location будет равен /relative-redirect/1
 test_absolute_redirect | 1. Отправляем запрос http://httpbin.org/redirect/2?absolute=true | Location будет равен http://httpbin.org/absolute-redirect/1
-test_absolute_redirect_n_equal_1 | 1. Отправляем запрос http://httpbin.org/redirect/2?absolute=true | Location будет равен http://httpbin.org/get
+test_absolute_redirect_n_equal_1 | 1. Отправляем запрос http://httpbin.org/redirect/1?absolute=true | Location будет равен http://httpbin.org/get
 
 
 ## Test Suite: Тестирование endpoint`а /redirect/:n
